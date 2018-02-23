@@ -2,6 +2,7 @@ import React from 'react';
 
 import Counter from './Counter';
 import Counter2 from './Counter2';
+import Forecast from './Forecast';
 
 var $ = require('jquery');
 var clima = "http://api.openweathermap.org/data/2.5/weather?q=Mexico%20City,MX&appid=97a0e425b6242fb595843206f65e6dfe&lang=es&units=metric";
@@ -85,9 +86,7 @@ function Root() {
     return (
         <section>
             <h1>Root component</h1>
-            <Counter />
-            <Counter2 />
-            <Weather />
+            <Forecast/>
         </section>
     );
 }
