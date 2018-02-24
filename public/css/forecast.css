@@ -1,0 +1,22 @@
+.forecast {
+    display: inline-block;
+}
+
+.forecast .wi:before {
+    font-size: 4em;
+}
+
+.forecast div div:nth-child(1) { 
+    float: left;
+    padding: 0px 10px;
+}
+
+.forecast div div:nth-child(2) { 
+    font-size: 3em;
+    float: right;
+    padding: 10px 0px;
+}
+
+.forecast div:nth-child(1) { 
+    padding: 10px 0px;
+}
