@@ -402,9 +402,10 @@ class ForecastItem extends React.Component {
             <ForecastIcon code={this.props.code}/>
             <div>{this.props.temperature}&deg;</div>
           </div>
-          <div>{this.props.description}</div>
-          <div>{this.props.hour}</div>
-          
+          <div>
+            <div>{this.props.description}</div>
+            <div>{this.props.hour}</div>
+          </div>
         </div>
     );
   }
